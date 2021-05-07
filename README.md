@@ -13,7 +13,17 @@ Currently, the following deep learning methods are available:
 - [x] [EndNet](https://ieeexplore.ieee.org/abstract/document/9179756)
 - [x] [MDL-Hong](https://ieeexplore.ieee.org/document/9174822)
 - [x] [FusAtNet](https://openaccess.thecvf.com/content_CVPRW_2020/html/w6/Mohla_FusAtNet_Dual_Attention_Based_SpectroSpatial_Multimodal_Fusion_Network_for_Hyperspectral_CVPRW_2020_paper.html)
-- [ ] S2ENet (ours) (coming soon)
+- [ ] S^2^ENet (ours) (coming soon)
+
+
+
+## Dataset
+
+- [Houston2013 (Hyperspectral and LiDAR Data)](https://hyperspectral.ee.uh.edu/?page_id=459): The processed .mat files can be obtained on [google drive](https://drive.google.com/drive/folders/1tfN_8vAHaYUnYD1DBEAtjCKP281iQA5v?usp=sharing).
+
+- Trento Data (Hyperspectral and LiDAR Data): Trento is provided by Professor  Prof. L. Bruzzone from the University of Trento. 
+
+
 
 
 
