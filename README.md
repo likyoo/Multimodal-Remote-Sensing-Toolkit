@@ -1,5 +1,5 @@
 # Deep Learning Methods for Multi-modal Remote Sensing
-***MMRS*** is a python tool to perform deep learning experiments on multi-modal remote sensing data.
+*MMRS* is a python tool to perform deep learning experiments on multi-modal remote sensing data.
 
 This repository is developed on the top of [DeepHyperX](https://github.com/nshaud/DeepHyperX) . 
 
@@ -24,6 +24,10 @@ Currently, the following deep learning methods are available:
 - Trento Data (Hyperspectral and LiDAR Data): Trento is provided by Professor  Prof. L. Bruzzone from the University of Trento. 
 
 
+
+## Quickstart using Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ftrxW12Q0bKH7BW0RefaWCr10e3aqImL?usp=sharing)
+
+You can use *MMRS* on [Google Colab Notebook](https://colab.research.google.com/drive/1ftrxW12Q0bKH7BW0RefaWCr10e3aqImL?usp=sharing) without any installation. You can run all cells without any modifications to see how everything works. 
 
 
 
