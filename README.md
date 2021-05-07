@@ -1,4 +1,4 @@
-# Deep Learning Methods for Multi-modal Remote Sensing
+# Deep Learning Methods for Multi-modal Remote Sensing Classification
 ![author](https://img.shields.io/badge/author-likyoo-blueviolet.svg)![last commit](https://img.shields.io/github/last-commit/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)![license](https://img.shields.io/github/license/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ftrxW12Q0bKH7BW0RefaWCr10e3aqImL?usp=sharing)
