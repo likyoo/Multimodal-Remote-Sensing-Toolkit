@@ -1,5 +1,5 @@
 # Deep Learning Methods for Multi-modal Remote Sensing
-$\textit{MMRS}$ is a python tool to perform deep learning experiments on multi-modal remote sensing data.
+***MMRS*** is a python tool to perform deep learning experiments on multi-modal remote sensing data.
 
 This repository is developed on the top of [DeepHyperX](https://github.com/nshaud/DeepHyperX) . 
 
