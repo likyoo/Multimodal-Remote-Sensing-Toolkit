@@ -17,7 +17,7 @@ Currently, the following deep learning methods are available:
 - [x] [EndNet](https://ieeexplore.ieee.org/abstract/document/9179756)
 - [x] [MDL-Hong](https://ieeexplore.ieee.org/document/9174822)
 - [x] [FusAtNet](https://openaccess.thecvf.com/content_CVPRW_2020/html/w6/Mohla_FusAtNet_Dual_Attention_Based_SpectroSpatial_Multimodal_Fusion_Network_for_Hyperspectral_CVPRW_2020_paper.html)
-- [ ] S2ENet (ours) (coming soon)
+- [x] **S2ENet** (ours)
 
 
 

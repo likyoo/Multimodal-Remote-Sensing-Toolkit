@@ -15,7 +15,7 @@ from utils import grouper, sliding_window, count_sliding_window, camel_to_snake
 from model.FusAtNet import FusAtNet
 from model.EndNet import EndNet
 from model.DML_Hong import Early_fusion_CNN, Middle_fusion_CNN, Late_fusion_CNN, Cross_fusion_CNN
-# from model.S2ENet import S2ENet # coming soon
+from model.S2ENet import S2ENet
 from losses import Cross_fusion_CNN_Loss, EndNet_Loss
 
 
@@ -94,15 +94,15 @@ def get_model(name, **kwargs):
         criterion = EndNet_Loss(weight=kwargs["weights"])
         kwargs.setdefault("epoch", 150)
         kwargs.setdefault("batch_size", 64)
-    # elif name == "S2ENet":
-    #     kwargs.setdefault("patch_size", 7)
-    #     center_pixel = True
-    #     model = S2ENet(n_bands, n_bands2, n_classes, kwargs["patch_size"])
-    #     lr = kwargs.setdefault("lr", 0.001)
-    #     optimizer = optim.Adam(model.parameters(), lr=lr)
-    #     criterion = nn.CrossEntropyLoss(weight=kwargs["weights"])
-    #     kwargs.setdefault("epoch", 128)
-    #     kwargs.setdefault("batch_size", 64)
+    elif name == "S2ENet":
+        kwargs.setdefault("patch_size", 7)
+        center_pixel = True
+        model = S2ENet(n_bands, n_bands2, n_classes, kwargs["patch_size"])
+        lr = kwargs.setdefault("lr", 0.001)
+        optimizer = optim.Adam(model.parameters(), lr=lr)
+        criterion = nn.CrossEntropyLoss(weight=kwargs["weights"])
+        kwargs.setdefault("epoch", 128)
+        kwargs.setdefault("batch_size", 64)
     else:
         raise KeyError("{} model is unknown.".format(name))
 
