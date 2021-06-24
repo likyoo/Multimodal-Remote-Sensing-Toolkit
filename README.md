@@ -23,7 +23,7 @@ Currently, the following deep learning methods are available:
 
 ## Datasets
 
-- [Houston2013 (Hyperspectral and LiDAR Data)](https://hyperspectral.ee.uh.edu/?page_id=459): The processed .mat files can be obtained on [google drive](https://drive.google.com/drive/folders/1tfN_8vAHaYUnYD1DBEAtjCKP281iQA5v?usp=sharing).
+- [Houston2013 (Hyperspectral and LiDAR Data)](https://hyperspectral.ee.uh.edu/?page_id=459): The processed .mat files can be obtained on [google drive](https://drive.google.com/file/d/1cyA7sKQlh2c7qrIb7gzexivoyXG8Vie2/view?usp=sharing).
 
 - Trento Data (Hyperspectral and LiDAR Data): Trento dataset is provided by Professor  Prof. L. Bruzzone from the University of Trento. 
 
