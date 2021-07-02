@@ -1,7 +1,7 @@
 # Deep Learning Methods for Multi-modal Remote Sensing Classification
 ![author](https://img.shields.io/badge/author-likyoo-blueviolet.svg)![last commit](https://img.shields.io/github/last-commit/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)![license](https://img.shields.io/github/license/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ftrxW12Q0bKH7BW0RefaWCr10e3aqImL?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GYbCJcNvWqoTEYszO1pfHvoJVyt-XNK7?usp=sharing)
 
 *MMRS* is a python tool to perform deep learning experiments on multi-modal remote sensing data.
 
@@ -31,7 +31,7 @@ Currently, the following deep learning methods are available:
 
 ## Quickstart using Colab 
 
-You can use *MMRS* on [Google Colab Notebook](https://colab.research.google.com/drive/1ftrxW12Q0bKH7BW0RefaWCr10e3aqImL?usp=sharing) without any installation. You can run all cells without any modifications to see how everything works. 
+You can use *MMRS* on [Google Colab Notebook](https://colab.research.google.com/drive/1GYbCJcNvWqoTEYszO1pfHvoJVyt-XNK7?usp=sharing) without any installation. You can run all cells without any modifications to see how everything works. 
 
 
 
