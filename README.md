@@ -3,7 +3,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GYbCJcNvWqoTEYszO1pfHvoJVyt-XNK7?usp=sharing)
 
-*MMRS* is a python tool to perform deep learning experiments on multi-modal remote sensing data.
+![Houston2013](imgs/Houston2013.png)
+
+***MMRS*** is a python tool to perform deep learning experiments on multi-modal remote sensing data.
 
 This repository is developed on the top of [DeepHyperX](https://github.com/nshaud/DeepHyperX) . 
 
