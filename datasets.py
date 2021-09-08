@@ -27,6 +27,9 @@ DATASETS_CONFIG = {
     "Trento":{
         "urls": [],
     },
+    "Augsburg":{
+        "urls": [],
+    },
 }
 
 try:
