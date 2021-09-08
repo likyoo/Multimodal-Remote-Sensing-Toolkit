@@ -175,7 +175,7 @@ def get_dataset(dataset_name, target_folder="./", datasets=DATASETS_CONFIG):
 
         # Load the image
         img1 = open_file(folder + 'data_HS_LR.mat')['data_HS_LR'].astype(np.float32)
-        rgb_bands = (40, 20, 10)
+        rgb_bands = (40, 20, 10)    # To Do: fix
 
         img2 = open_file(folder + 'data_DSM.mat')['data_DSM'].astype(np.float32)
         img2 = np.expand_dims(img2, axis=2)  # (332, 485) --> (332, 485, 1)
