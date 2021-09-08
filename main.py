@@ -67,7 +67,10 @@ parser.add_argument(
     type=str,
     default=None,
     help="Model to train. Available:\n"
-    "CoupledCNNs, "
+    "EndNet, "
+    "MDL-Hong, "
+    "FusAtNet, "
+    "S2ENet, "
     "Others, ",
 )
 parser.add_argument(
