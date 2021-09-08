@@ -167,6 +167,42 @@ def get_dataset(dataset_name, target_folder="./", datasets=DATASETS_CONFIG):
         ]
 
         ignored_labels = [0]
+
+    elif dataset_name == "Augsburg":
+
+        # Load the image
+        img1 = open_file(folder + 'data_HS_LR.mat')['data_HS_LR'].astype(np.float32)
+        rgb_bands = (40, 20, 10)
+
+        img2 = open_file(folder + 'data_DSM.mat')['data_DSM'].astype(np.float32)
+        img2 = np.expand_dims(img2, axis=2)  # (332, 485) --> (332, 485, 1)
+        gt = open_file(folder + 'gt.mat')['gt']     # Here, the gt file is load for filtering NaN out and visualization.
+
+
+        # normalization method 1: map to [0, 1]
+        [m, n, l] = img1.shape
+        for i in range(l):
+            minimal = img1[:, :, i].min()
+            maximal = img1[:, :, i].max()
+            img1[:, :, i] = (img1[:, :, i] - minimal) / (maximal - minimal)
+
+        minimal = img2.min()
+        maximal = img2.max()
+        img2 = (img2 - minimal) / (maximal - minimal)
+
+        label_values = [
+            "Unclassified",
+            "Forest",
+            "Residential Area",
+            "Industrial Area",
+            "Low Plants",
+            "Allotment",
+            "Commercial Area",
+            "Water"
+        ]
+
+        ignored_labels = [0]
+
     else:
         # Custom dataset
         (
