@@ -68,7 +68,10 @@ parser.add_argument(
     default=None,
     help="Model to train. Available:\n"
     "EndNet, "
-    "MDL-Hong, "
+    "Early_fusion_CNN, "
+    "Middle_fusion_CNN, "
+    "Late_fusion_CNN, "
+    "Cross_fusion_CNN, "
     "FusAtNet, "
     "S2ENet, "
     "Others, ",
