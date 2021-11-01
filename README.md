@@ -1,4 +1,5 @@
 # Deep Learning Methods for Multi-modal Remote Sensing Classification
+
 ![author](https://img.shields.io/badge/author-likyoo-blueviolet.svg)![last commit](https://img.shields.io/github/last-commit/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)![license](https://img.shields.io/github/license/likyoo/Multimodal-Remote-Sensing-Toolkit.svg)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GYbCJcNvWqoTEYszO1pfHvoJVyt-XNK7?usp=sharing)
@@ -58,4 +59,18 @@ Examples:
 ```
 
 For more features please refer to [DeepHyperX](https://github.com/nshaud/DeepHyperX).
+
+
+
+## Citation
+
+If you find this work valuable or use our code in your own research, please consider citing us: 
+
+> S. Fang, K. Li and Z. Li, "S2ENet: Spatial-spectral Cross-modal Enhancement Network for Classification of Hyperspectral and LiDAR Data," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2021.3121028.
+
+Bibtex format :
+
+> @ARTICLE{9583936,  author={Fang, Sheng and Li, Kaiyu and Li, Zhe},  journal={IEEE Geoscience and Remote Sensing Letters},   title={S2ENet: Spatial-spectral Cross-modal Enhancement Network for Classification of Hyperspectral and LiDAR Data},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/LGRS.2021.3121028}}
+
+
 
