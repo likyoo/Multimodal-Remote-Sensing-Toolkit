@@ -66,11 +66,11 @@ For more features please refer to [DeepHyperX](https://github.com/nshaud/DeepHyp
 
 If you find this work valuable or use our code in your own research, please consider citing us: 
 
-> S. Fang, K. Li and Z. Li, "S2ENet: Spatial-spectral Cross-modal Enhancement Network for Classification of Hyperspectral and LiDAR Data," in IEEE Geoscience and Remote Sensing Letters, doi: 10.1109/LGRS.2021.3121028.
+> S. Fang, K. Li and Z. Li, "S²ENet: Spatial–Spectral Cross-Modal Enhancement Network for Classification of Hyperspectral and LiDAR Data," in IEEE Geoscience and Remote Sensing Letters, vol. 19, pp. 1-5, 2022, Art no. 6504205, doi: 10.1109/LGRS.2021.3121028.
 
 Bibtex format :
 
-> @ARTICLE{9583936,  author={Fang, Sheng and Li, Kaiyu and Li, Zhe},  journal={IEEE Geoscience and Remote Sensing Letters},   title={S2ENet: Spatial-spectral Cross-modal Enhancement Network for Classification of Hyperspectral and LiDAR Data},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/LGRS.2021.3121028}}
+> @ARTICLE{9583936,  author={Fang, Sheng and Li, Kaiyu and Li, Zhe},  journal={IEEE Geoscience and Remote Sensing Letters},   title={S²ENet: Spatial–Spectral Cross-Modal Enhancement Network for Classification of Hyperspectral and LiDAR Data},   year={2022},  volume={19},  number={},  pages={1-5},  doi={10.1109/LGRS.2021.3121028}}
 
 
 
